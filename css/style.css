@@ -253,7 +253,7 @@ header .container .row .col-lg-6 h1::before {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-image: repeating-ient(
+  background-image: repeating-linear-gradient(
     -55deg,
     transparent 0.9px,
     var(--main-color) 1.25px,
