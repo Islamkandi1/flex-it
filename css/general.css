@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+    --main-color:#09AFF4;
+    --first-color:#060922;
+    --second-color:#fff;
+    --third-color:#BBBBC2;
+    --transition-time:.4s;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+p{
+    color: var(--third-color);
+}
+@font-face {
+    font-family: "Jost";
+    src: url(./../fonts/Jost-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Jost";
+    src: url(./../fonts/Jost-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Jost";
+    src: url(./../fonts/Jost-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Jost";
+    src: url(./../fonts/Jost-Black.ttf);
+    font-weight: 900;
+}
+body{
+    font-family: "Jost",sans-serif;
+    font-weight: 500;
+    background-color: var(--first-color);
+}
